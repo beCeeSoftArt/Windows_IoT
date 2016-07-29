@@ -1,0 +1,2 @@
+netsh advfirewall firewall delete rule name="[The Service Name]" dir=in protocol=TCP localport=[The Used Port]
+netsh advfirewall firewall add rule name="[The Service Name]" dir=in action=allow protocol=TCP localport=[The Used Port]
